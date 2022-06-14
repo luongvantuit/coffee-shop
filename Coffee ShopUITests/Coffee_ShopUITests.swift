@@ -1,10 +1,3 @@
-//
-//  Coffee_ShopUITests.swift
-//  Coffee ShopUITests
-//
-//  Created by Lương Văn Tú on 14/06/2022.
-//
-
 import XCTest
 
 class Coffee_ShopUITests: XCTestCase {

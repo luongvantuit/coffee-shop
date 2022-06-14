@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  Coffee Shop
-//
-//  Created by Lương Văn Tú on 14/06/2022.
-//
-
 import UIKit
 
 @main

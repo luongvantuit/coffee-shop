@@ -1,10 +1,3 @@
-//
-//  Coffee_ShopTests.swift
-//  Coffee ShopTests
-//
-//  Created by Lương Văn Tú on 14/06/2022.
-//
-
 import XCTest
 @testable import Coffee_Shop
 

@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		E294DB692858A12600CD7868 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB682858A12600CD7868 /* AppDelegate.swift */; };
 		E294DB6B2858A12600CD7868 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB6A2858A12600CD7868 /* SceneDelegate.swift */; };
-		E294DB6D2858A12600CD7868 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB6C2858A12600CD7868 /* ViewController.swift */; };
-		E294DB702858A12600CD7868 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E294DB6E2858A12600CD7868 /* Main.storyboard */; };
 		E294DB722858A12900CD7868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E294DB712858A12900CD7868 /* Assets.xcassets */; };
 		E294DB752858A12900CD7868 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E294DB732858A12900CD7868 /* LaunchScreen.storyboard */; };
 		E294DB802858A12900CD7868 /* Coffee_ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB7F2858A12900CD7868 /* Coffee_ShopTests.swift */; };
 		E294DB8A2858A12900CD7868 /* Coffee_ShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB892858A12900CD7868 /* Coffee_ShopUITests.swift */; };
 		E294DB8C2858A12900CD7868 /* Coffee_ShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294DB8B2858A12900CD7868 /* Coffee_ShopUITestsLaunchTests.swift */; };
+		E2D561AC2858F15A0048590A /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D561AB2858F15A0048590A /* OnboardingController.swift */; };
+		E2D561AE2858F1980048590A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D561AD2858F1980048590A /* HomeController.swift */; };
+		E2D561B02858F1A50048590A /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D561AF2858F1A50048590A /* ProductController.swift */; };
+		E2D561B32858F6DB0048590A /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D561B22858F6DB0048590A /* Onboarding.storyboard */; };
+		E2D561B52858F6E60048590A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D561B42858F6E60048590A /* Home.storyboard */; };
+		E2D561B72858F6EF0048590A /* Product.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D561B62858F6EF0048590A /* Product.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		E294DB652858A12600CD7868 /* Coffee Shop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Shop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294DB682858A12600CD7868 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E294DB6A2858A12600CD7868 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E294DB6C2858A12600CD7868 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E294DB6F2858A12600CD7868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E294DB712858A12900CD7868 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E294DB742858A12900CD7868 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E294DB762858A12900CD7868 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		E294DB852858A12900CD7868 /* Coffee ShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee ShopUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294DB892858A12900CD7868 /* Coffee_ShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_ShopUITests.swift; sourceTree = "<group>"; };
 		E294DB8B2858A12900CD7868 /* Coffee_ShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_ShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2D561AB2858F15A0048590A /* OnboardingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		E2D561AD2858F1980048590A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		E2D561AF2858F1A50048590A /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		E2D561B22858F6DB0048590A /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		E2D561B42858F6E60048590A /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		E2D561B62858F6EF0048590A /* Product.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Product.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,10 @@
 		E294DB672858A12600CD7868 /* Coffee Shop */ = {
 			isa = PBXGroup;
 			children = (
+				E2D561B12858F6C70048590A /* Storyboards */,
+				E2D561A42858F0E20048590A /* Controllers */,
 				E294DB682858A12600CD7868 /* AppDelegate.swift */,
 				E294DB6A2858A12600CD7868 /* SceneDelegate.swift */,
-				E294DB6C2858A12600CD7868 /* ViewController.swift */,
-				E294DB6E2858A12600CD7868 /* Main.storyboard */,
 				E294DB712858A12900CD7868 /* Assets.xcassets */,
 				E294DB732858A12900CD7868 /* LaunchScreen.storyboard */,
 				E294DB762858A12900CD7868 /* Info.plist */,
@@ -125,6 +133,26 @@
 				E294DB8B2858A12900CD7868 /* Coffee_ShopUITestsLaunchTests.swift */,
 			);
 			path = "Coffee ShopUITests";
+			sourceTree = "<group>";
+		};
+		E2D561A42858F0E20048590A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2D561AB2858F15A0048590A /* OnboardingController.swift */,
+				E2D561AD2858F1980048590A /* HomeController.swift */,
+				E2D561AF2858F1A50048590A /* ProductController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E2D561B12858F6C70048590A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E2D561B22858F6DB0048590A /* Onboarding.storyboard */,
+				E2D561B42858F6E60048590A /* Home.storyboard */,
+				E2D561B62858F6EF0048590A /* Product.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E294DB752858A12900CD7868 /* LaunchScreen.storyboard in Resources */,
+				E2D561B52858F6E60048590A /* Home.storyboard in Resources */,
 				E294DB722858A12900CD7868 /* Assets.xcassets in Resources */,
-				E294DB702858A12600CD7868 /* Main.storyboard in Resources */,
+				E2D561B72858F6EF0048590A /* Product.storyboard in Resources */,
+				E2D561B32858F6DB0048590A /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E294DB6D2858A12600CD7868 /* ViewController.swift in Sources */,
+				E2D561AC2858F15A0048590A /* OnboardingController.swift in Sources */,
+				E2D561B02858F1A50048590A /* ProductController.swift in Sources */,
 				E294DB692858A12600CD7868 /* AppDelegate.swift in Sources */,
 				E294DB6B2858A12600CD7868 /* SceneDelegate.swift in Sources */,
+				E2D561AE2858F1980048590A /* HomeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +329,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E294DB6E2858A12600CD7868 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E294DB6F2858A12600CD7868 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E294DB732858A12900CD7868 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,11 +463,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 273233KDNS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coffee Shop/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Onboarding;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,7 +476,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = person.luongvantuit.cs;
+				PRODUCT_BUNDLE_IDENTIFIER = appx.ios.cs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -466,11 +491,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 273233KDNS;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Coffee Shop/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Onboarding;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -478,7 +504,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = person.luongvantuit.cs;
+				PRODUCT_BUNDLE_IDENTIFIER = appx.ios.cs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
